@@ -10,7 +10,6 @@ Rails.application.configure do
   # Rake tasks automatically ignore this option for performance.
   config.eager_load = true
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.perform_deliveries = true
   config.action_mailer.default_url_options = { :host => 'http://creme-inc-project.herokupapp.com', :protocol => 'https'}
 
   # Full error reports are disabled and caching is turned on.
